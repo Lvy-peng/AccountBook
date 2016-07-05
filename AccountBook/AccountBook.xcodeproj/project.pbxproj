@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C5B10931BB3F565006962C4 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B10921BB3F565006962C4 /* DBManager.m */; };
+		1C81F9F21BAA9BB4008D6927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81F9F11BAA9BB4008D6927 /* main.m */; };
+		1C81F9F51BAA9BB4008D6927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81F9F41BAA9BB4008D6927 /* AppDelegate.m */; };
+		1C81F9F81BAA9BB4008D6927 /* AccountBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C81F9F61BAA9BB4008D6927 /* AccountBook.xcdatamodeld */; };
+		1C81F9FB1BAA9BB4008D6927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81F9FA1BAA9BB4008D6927 /* ViewController.m */; };
+		1C81F9FE1BAA9BB4008D6927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C81F9FC1BAA9BB4008D6927 /* Main.storyboard */; };
+		1C81FA001BAA9BB4008D6927 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81F9FF1BAA9BB4008D6927 /* Images.xcassets */; };
+		1C81FA031BAA9BB4008D6927 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C81FA011BAA9BB4008D6927 /* LaunchScreen.xib */; };
+		1C81FA0F1BAA9BB4008D6927 /* AccountBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81FA0E1BAA9BB4008D6927 /* AccountBookTests.m */; };
+		1C81FA1A1BAA9E60008D6927 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81FA191BAA9E60008D6927 /* RecordViewController.m */; };
+		1C81FA1F1BAAA254008D6927 /* RecodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81FA1E1BAAA254008D6927 /* RecodTableViewCell.m */; };
+		1C81FA221BAAB9B9008D6927 /* RecordWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81FA211BAAB9B9008D6927 /* RecordWelcomeViewController.m */; };
+		1C81FA251BAACBC0008D6927 /* RecordBottomButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81FA241BAACBC0008D6927 /* RecordBottomButtonView.m */; };
+		1C81FA281BAAE267008D6927 /* RecordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81FA271BAAE267008D6927 /* RecordDetailViewController.m */; };
+		1C81FA2B1BAAE4AA008D6927 /* RecordDetailCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C81FA2A1BAAE4AA008D6927 /* RecordDetailCellTableViewCell.m */; };
+		1C8D4DC81BABF7A200C016B9 /* RecordBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8D4DC71BABF7A200C016B9 /* RecordBalanceViewController.m */; };
+		1CBDA1031BB525A200BDA901 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBDA1021BB525A200BDA901 /* libsqlite3.dylib */; };
+		1CD931D91BB68436007D755D /* RecordChooseNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD931D81BB68436007D755D /* RecordChooseNumView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C81FA091BAA9BB4008D6927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C81F9E41BAA9BB4008D6927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C81F9EB1BAA9BB4008D6927;
+			remoteInfo = AccountBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C5B10911BB3F565006962C4 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = ../DBManager.h; sourceTree = "<group>"; };
+		1C5B10921BB3F565006962C4 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = ../DBManager.m; sourceTree = "<group>"; };
+		1C81F9EC1BAA9BB4008D6927 /* AccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C81F9F01BAA9BB4008D6927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C81F9F11BAA9BB4008D6927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C81F9F31BAA9BB4008D6927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C81F9F41BAA9BB4008D6927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C81F9F71BAA9BB4008D6927 /* AccountBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccountBook.xcdatamodel; sourceTree = "<group>"; };
+		1C81F9F91BAA9BB4008D6927 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C81F9FA1BAA9BB4008D6927 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C81F9FD1BAA9BB4008D6927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C81F9FF1BAA9BB4008D6927 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C81FA021BAA9BB4008D6927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1C81FA081BAA9BB4008D6927 /* AccountBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C81FA0D1BAA9BB4008D6927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C81FA0E1BAA9BB4008D6927 /* AccountBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountBookTests.m; sourceTree = "<group>"; };
+		1C81FA181BAA9E60008D6927 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		1C81FA191BAA9E60008D6927 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		1C81FA1D1BAAA254008D6927 /* RecodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecodTableViewCell.h; sourceTree = "<group>"; };
+		1C81FA1E1BAAA254008D6927 /* RecodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecodTableViewCell.m; sourceTree = "<group>"; };
+		1C81FA201BAAB9B9008D6927 /* RecordWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordWelcomeViewController.h; sourceTree = "<group>"; };
+		1C81FA211BAAB9B9008D6927 /* RecordWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordWelcomeViewController.m; sourceTree = "<group>"; };
+		1C81FA231BAACBC0008D6927 /* RecordBottomButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordBottomButtonView.h; sourceTree = "<group>"; };
+		1C81FA241BAACBC0008D6927 /* RecordBottomButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordBottomButtonView.m; sourceTree = "<group>"; };
+		1C81FA261BAAE267008D6927 /* RecordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordDetailViewController.h; sourceTree = "<group>"; };
+		1C81FA271BAAE267008D6927 /* RecordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordDetailViewController.m; sourceTree = "<group>"; };
+		1C81FA291BAAE4AA008D6927 /* RecordDetailCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordDetailCellTableViewCell.h; sourceTree = "<group>"; };
+		1C81FA2A1BAAE4AA008D6927 /* RecordDetailCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordDetailCellTableViewCell.m; sourceTree = "<group>"; };
+		1C8D4DC61BABF7A200C016B9 /* RecordBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordBalanceViewController.h; sourceTree = "<group>"; };
+		1C8D4DC71BABF7A200C016B9 /* RecordBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordBalanceViewController.m; sourceTree = "<group>"; };
+		1CBDA1021BB525A200BDA901 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1CD931D71BB68436007D755D /* RecordChooseNumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordChooseNumView.h; sourceTree = "<group>"; };
+		1CD931D81BB68436007D755D /* RecordChooseNumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordChooseNumView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C81F9E91BAA9BB4008D6927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBDA1031BB525A200BDA901 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81FA051BAA9BB4008D6927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C81F9E31BAA9BB4008D6927 = {
+			isa = PBXGroup;
+			children = (
+				1CBDA1021BB525A200BDA901 /* libsqlite3.dylib */,
+				1C81F9EE1BAA9BB4008D6927 /* AccountBook */,
+				1C81FA0B1BAA9BB4008D6927 /* AccountBookTests */,
+				1C81F9ED1BAA9BB4008D6927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C81F9ED1BAA9BB4008D6927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C81F9EC1BAA9BB4008D6927 /* AccountBook.app */,
+				1C81FA081BAA9BB4008D6927 /* AccountBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C81F9EE1BAA9BB4008D6927 /* AccountBook */ = {
+			isa = PBXGroup;
+			children = (
+				1C81FA1C1BAAA211008D6927 /* View */,
+				1C81F9F31BAA9BB4008D6927 /* AppDelegate.h */,
+				1C81F9F41BAA9BB4008D6927 /* AppDelegate.m */,
+				1C81F9F91BAA9BB4008D6927 /* ViewController.h */,
+				1C81F9FA1BAA9BB4008D6927 /* ViewController.m */,
+				1C81F9FC1BAA9BB4008D6927 /* Main.storyboard */,
+				1C81F9FF1BAA9BB4008D6927 /* Images.xcassets */,
+				1C81FA011BAA9BB4008D6927 /* LaunchScreen.xib */,
+				1C81F9F61BAA9BB4008D6927 /* AccountBook.xcdatamodeld */,
+				1C81F9F01BAA9BB4008D6927 /* Info.plist */,
+				1C81F9F11BAA9BB4008D6927 /* main.m */,
+				1C81F9EF1BAA9BB4008D6927 /* Supporting Files */,
+				1C81FA201BAAB9B9008D6927 /* RecordWelcomeViewController.h */,
+				1C81FA211BAAB9B9008D6927 /* RecordWelcomeViewController.m */,
+				1C81FA181BAA9E60008D6927 /* RecordViewController.h */,
+				1C81FA191BAA9E60008D6927 /* RecordViewController.m */,
+				1C81FA261BAAE267008D6927 /* RecordDetailViewController.h */,
+				1C81FA271BAAE267008D6927 /* RecordDetailViewController.m */,
+				1C8D4DC61BABF7A200C016B9 /* RecordBalanceViewController.h */,
+				1C8D4DC71BABF7A200C016B9 /* RecordBalanceViewController.m */,
+				1C5B10911BB3F565006962C4 /* DBManager.h */,
+				1C5B10921BB3F565006962C4 /* DBManager.m */,
+			);
+			path = AccountBook;
+			sourceTree = "<group>";
+		};
+		1C81F9EF1BAA9BB4008D6927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C81FA0B1BAA9BB4008D6927 /* AccountBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C81FA0E1BAA9BB4008D6927 /* AccountBookTests.m */,
+				1C81FA0C1BAA9BB4008D6927 /* Supporting Files */,
+			);
+			path = AccountBookTests;
+			sourceTree = "<group>";
+		};
+		1C81FA0C1BAA9BB4008D6927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C81FA0D1BAA9BB4008D6927 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C81FA1C1BAAA211008D6927 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C81FA1D1BAAA254008D6927 /* RecodTableViewCell.h */,
+				1C81FA1E1BAAA254008D6927 /* RecodTableViewCell.m */,
+				1C81FA231BAACBC0008D6927 /* RecordBottomButtonView.h */,
+				1C81FA241BAACBC0008D6927 /* RecordBottomButtonView.m */,
+				1C81FA291BAAE4AA008D6927 /* RecordDetailCellTableViewCell.h */,
+				1C81FA2A1BAAE4AA008D6927 /* RecordDetailCellTableViewCell.m */,
+				1CD931D71BB68436007D755D /* RecordChooseNumView.h */,
+				1CD931D81BB68436007D755D /* RecordChooseNumView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C81F9EB1BAA9BB4008D6927 /* AccountBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C81FA121BAA9BB4008D6927 /* Build configuration list for PBXNativeTarget "AccountBook" */;
+			buildPhases = (
+				1C81F9E81BAA9BB4008D6927 /* Sources */,
+				1C81F9E91BAA9BB4008D6927 /* Frameworks */,
+				1C81F9EA1BAA9BB4008D6927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccountBook;
+			productName = AccountBook;
+			productReference = 1C81F9EC1BAA9BB4008D6927 /* AccountBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C81FA071BAA9BB4008D6927 /* AccountBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C81FA151BAA9BB4008D6927 /* Build configuration list for PBXNativeTarget "AccountBookTests" */;
+			buildPhases = (
+				1C81FA041BAA9BB4008D6927 /* Sources */,
+				1C81FA051BAA9BB4008D6927 /* Frameworks */,
+				1C81FA061BAA9BB4008D6927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C81FA0A1BAA9BB4008D6927 /* PBXTargetDependency */,
+			);
+			name = AccountBookTests;
+			productName = AccountBookTests;
+			productReference = 1C81FA081BAA9BB4008D6927 /* AccountBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C81F9E41BAA9BB4008D6927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = PZM;
+				TargetAttributes = {
+					1C81F9EB1BAA9BB4008D6927 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8YJW6LS2SK;
+					};
+					1C81FA071BAA9BB4008D6927 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1C81F9EB1BAA9BB4008D6927;
+					};
+				};
+			};
+			buildConfigurationList = 1C81F9E71BAA9BB4008D6927 /* Build configuration list for PBXProject "AccountBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C81F9E31BAA9BB4008D6927;
+			productRefGroup = 1C81F9ED1BAA9BB4008D6927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C81F9EB1BAA9BB4008D6927 /* AccountBook */,
+				1C81FA071BAA9BB4008D6927 /* AccountBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C81F9EA1BAA9BB4008D6927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81F9FE1BAA9BB4008D6927 /* Main.storyboard in Resources */,
+				1C81FA031BAA9BB4008D6927 /* LaunchScreen.xib in Resources */,
+				1C81FA001BAA9BB4008D6927 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81FA061BAA9BB4008D6927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C81F9E81BAA9BB4008D6927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81F9F81BAA9BB4008D6927 /* AccountBook.xcdatamodeld in Sources */,
+				1C81FA221BAAB9B9008D6927 /* RecordWelcomeViewController.m in Sources */,
+				1C81FA281BAAE267008D6927 /* RecordDetailViewController.m in Sources */,
+				1CD931D91BB68436007D755D /* RecordChooseNumView.m in Sources */,
+				1C5B10931BB3F565006962C4 /* DBManager.m in Sources */,
+				1C81F9F51BAA9BB4008D6927 /* AppDelegate.m in Sources */,
+				1C81F9FB1BAA9BB4008D6927 /* ViewController.m in Sources */,
+				1C81FA1F1BAAA254008D6927 /* RecodTableViewCell.m in Sources */,
+				1C8D4DC81BABF7A200C016B9 /* RecordBalanceViewController.m in Sources */,
+				1C81F9F21BAA9BB4008D6927 /* main.m in Sources */,
+				1C81FA251BAACBC0008D6927 /* RecordBottomButtonView.m in Sources */,
+				1C81FA1A1BAA9E60008D6927 /* RecordViewController.m in Sources */,
+				1C81FA2B1BAAE4AA008D6927 /* RecordDetailCellTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81FA041BAA9BB4008D6927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81FA0F1BAA9BB4008D6927 /* AccountBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C81FA0A1BAA9BB4008D6927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C81F9EB1BAA9BB4008D6927 /* AccountBook */;
+			targetProxy = 1C81FA091BAA9BB4008D6927 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C81F9FC1BAA9BB4008D6927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C81F9FD1BAA9BB4008D6927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C81FA011BAA9BB4008D6927 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C81FA021BAA9BB4008D6927 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C81FA101BAA9BB4008D6927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C81FA111BAA9BB4008D6927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C81FA131BAA9BB4008D6927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AccountBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C81FA141BAA9BB4008D6927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AccountBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C81FA161BAA9BB4008D6927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AccountBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccountBook.app/AccountBook";
+			};
+			name = Debug;
+		};
+		1C81FA171BAA9BB4008D6927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AccountBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccountBook.app/AccountBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C81F9E71BAA9BB4008D6927 /* Build configuration list for PBXProject "AccountBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C81FA101BAA9BB4008D6927 /* Debug */,
+				1C81FA111BAA9BB4008D6927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C81FA121BAA9BB4008D6927 /* Build configuration list for PBXNativeTarget "AccountBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C81FA131BAA9BB4008D6927 /* Debug */,
+				1C81FA141BAA9BB4008D6927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C81FA151BAA9BB4008D6927 /* Build configuration list for PBXNativeTarget "AccountBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C81FA161BAA9BB4008D6927 /* Debug */,
+				1C81FA171BAA9BB4008D6927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1C81F9F61BAA9BB4008D6927 /* AccountBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C81F9F71BAA9BB4008D6927 /* AccountBook.xcdatamodel */,
+			);
+			currentVersion = 1C81F9F71BAA9BB4008D6927 /* AccountBook.xcdatamodel */;
+			path = AccountBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1C81F9E41BAA9BB4008D6927 /* Project object */;
+}
